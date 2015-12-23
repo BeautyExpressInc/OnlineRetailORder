@@ -1,0 +1,122 @@
+﻿@model OnlineRetailORder.Models.OnlineRetailOrder
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OnlineRetailOrder</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.od_OrderSource)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.od_OrderSource)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.od_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.od_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.od_status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.od_status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.od_shipping_last_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.od_shipping_last_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.od_shipping_email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.od_shipping_email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShippingDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShippingDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShippedBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShippedBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.total_discounts)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.total_discounts)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.subtotal_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.subtotal_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.total_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.total_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.discount_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.discount_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.discount_type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.discount_type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.discount_amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.discount_amount)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.RetailOrderId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

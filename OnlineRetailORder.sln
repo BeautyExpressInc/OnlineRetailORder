@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineRetailORder", "OnlineRetailORder\OnlineRetailORder.csproj", "{5D4D8A85-2BA3-4208-BDC0-396DB1A77F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToSQLMvcApplication", "..\LinqToSQLMvcApplication\LinqToSQLMvcApplication\LinqToSQLMvcApplication.csproj", "{B4C7D8A6-4BDB-4481-8CE1-A70E2A1B6C1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D4D8A85-2BA3-4208-BDC0-396DB1A77F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4D8A85-2BA3-4208-BDC0-396DB1A77F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4D8A85-2BA3-4208-BDC0-396DB1A77F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4D8A85-2BA3-4208-BDC0-396DB1A77F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C7D8A6-4BDB-4481-8CE1-A70E2A1B6C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C7D8A6-4BDB-4481-8CE1-A70E2A1B6C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C7D8A6-4BDB-4481-8CE1-A70E2A1B6C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C7D8A6-4BDB-4481-8CE1-A70E2A1B6C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

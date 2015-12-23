@@ -1,0 +1,105 @@
+﻿@model IEnumerable<OnlineRetailORder.Models._Online_Retail_HDR>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.od_OrderSource)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.od_date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.od_status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.od_shipping_last_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.od_shipping_email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShippingDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShippedBy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.total_discounts)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.subtotal_price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.total_price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.discount_code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.discount_type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.discount_amount)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.od_OrderSource)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.od_date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.od_status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.od_shipping_last_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.od_shipping_email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShippingDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShippedBy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.total_discounts)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.subtotal_price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.total_price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.discount_code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.discount_type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.discount_amount)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.RetailOrderId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.RetailOrderId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.RetailOrderId })
+        </td>
+    </tr>
+}
+
+</table>
